@@ -1,10 +1,4 @@
-require 'rspec'
-require 'pry'
-require_relative './spec_helper'
+require_relative 'contact'
+require_relative 'application'
 
-
-
-
-
-binding.pry
-puts
+Application.new.run
